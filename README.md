@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # **一个简单的树组件**
+=======
+# **一个简单的登陆组件**
+# componentization
+>>>>>>> d2d35b7ab9b71be4c3a3650659d071dd934e366b
 
 ## Project setup
 ```

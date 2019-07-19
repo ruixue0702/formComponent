@@ -16,7 +16,11 @@ import TreeComponents from '@/components/tree'
 export default {
 	name: 'app',
 	components: {
+<<<<<<< HEAD
 		TreeComponents
+=======
+		FormComponents
+>>>>>>> d2d35b7ab9b71be4c3a3650659d071dd934e366b
 	}
 }
 </script>
