@@ -51,10 +51,10 @@ export default {
   width: 200px;
   margin: 10px auto;
   font-size: 14px;
-  border: blue 3px solid;
+  border: blue 1px solid;
   padding: 8px 16px;
   background: #fff;
-  border-radius: 3px;
+  border-radius: 4px;
   margin-bottom: 8px;
 }
 </style>

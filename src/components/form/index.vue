@@ -39,7 +39,7 @@
                 this.$refs[form].validate(valid => {
                     if (valid){
                         const notice = this.$create(Notice, {
-                            message: valid ? "请求登录!" : "校验失败!",
+                            message: valid ? "登陆成功!" : "校验失败!",
                             duration: 3000
                         });
                         notice.show();

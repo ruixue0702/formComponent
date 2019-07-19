@@ -1,6 +1,5 @@
 <template>
 	<div id="app">
-		<h1>我的组件化</h1>
 		<div>
 			<h3>Form组件</h3>
 			<FormComponents/>
@@ -14,7 +13,7 @@ import FormComponents from '@/components/form'
 export default {
 	name: 'app',
 	components: {
-		FormComponents,
+		FormComponents
 	}
 }
 </script>
