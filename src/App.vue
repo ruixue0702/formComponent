@@ -1,20 +1,22 @@
 <template>
 	<div id="app">
-		<h1>我的组件化</h1>
 		<div>
-			<h3>Form组件</h3>
-			<FormComponents/>
+			<h3 class="title">简单的Tree组件</h3>
+			<div class="treeBox">
+				<TreeComponents/>
+			</div>
+			
 		</div>
 	</div>
 </template>
 
 <script>
-import FormComponents from '@/components/form'
+import TreeComponents from '@/components/tree'
 
 export default {
 	name: 'app',
 	components: {
-		FormComponents,
+		TreeComponents
 	}
 }
 </script>
@@ -27,5 +29,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.title {
+	color: rgba(255, 138, 38, 1)
+}
+.treeBox {
+	width: 300px;
+
 }
 </style>
